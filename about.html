@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>About me</title>
+</head>
+<body style= "margin: 0; padding: 0; color: azure;">
+
+	<style>
+		nav {
+			display: flex;
+			justify-content: space-between;
+			padding: 10px 50px;
+			background: #5080cc;
+		}
+		
+		body {
+			background: linear-gradient(to right, #789bcf, #ffffff);
+		}
+		
+		.logo{
+			color: #ffffff;
+		}
+		
+		nav ul {
+			display: flex;
+			list-style: none;
+			gap: 10px;
+		}
+		
+		nav a{
+			text-decoration: none;
+			color: #ffffff;
+			background-color: rgb(39, 100, 180);
+			padding: 9px 18px;
+			border-radius: 5px;
+		}
+		
+		nav a:hover {
+			color: rgb(38, 102, 102);
+			background-color: aliceblue;
+			cursor: pointer;
+		}
+		
+		.home {
+			text-align: center;
+			margin: 300px;
+		}
+		
+		.about{
+			margin: 50px;
+			padding: 20px;
+			background-color: rgba(255, 255, 255, 0.542);
+			border-radius: 10px;
+			color: #000000;
+		}
+		
+	</style>
+
+	<nav>
+		<h2 class="logo">My Porto</h2>
+			<ul style="display: flex; list-style: none; justify-content: end; color: white">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+	</nav>
+	
+	
+	<section id = "about" class = "about">
+		<h2><center>About me</center></h2>
+		<p>Halo! Saya Anggrayani Nur Aeni dari Rombel PPLG X-5 Rayon Ciawi 2, saya tertarik<br>dengan dunia web development dan desain grafis. Saya senang belajar hal-hal baru dan<br>bersemangat untuk mengembangkan keterampilan saya di bidang teknologi.<br>
+         <br>dan saya juga telah membuat beberapa proyek kecil dalam bidang ini sebagai berikut</p>
+         <br>
+		<div>
+			<p>1. Tampilan Profile</p>
+				<img src="p.png" height="400px">
+		</div>
+		
+		<div>
+			<p>2. Tampilan Navbar estetikk</p>
+				<img src="n.png" height="30px">
+		</div>
+		
+		
+		<div>
+			<p>3. card</p>
+				<img src="c.png" height="300px">
+		</div>
+	</section>
+</body>
+</html>
